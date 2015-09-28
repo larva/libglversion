@@ -1,0 +1,10 @@
+LIBGLVERSION_1 {
+global:
+	glGetString;
+        glGetIntegerv;
+        glGetInteger64v;
+        glGetIntegeriv;
+        glGetInteger64i_v;
+local:
+        *;
+};
